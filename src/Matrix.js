@@ -12,6 +12,14 @@ export default class Matrix extends Component {
     }
   }
 
+
+  handleColor(hex){
+      return this.setState({color:this.hex})
+  
+    
+  }
+  
+  
   genRow = (vals) => (
     vals.map((val, idx) => <Cell key={idx} color={val} />)
   )
