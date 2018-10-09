@@ -8,7 +8,7 @@ export default class Matrix extends Component {
   constructor(props) {
     super(props)
     state = {
-      color: this.props.
+      color: this.props.color
     }
   }
 
